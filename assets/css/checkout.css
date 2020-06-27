@@ -1,0 +1,47 @@
+.flex-on{
+    display: flex;
+}
+.justify-sb{
+    justify-content: space-between;
+}
+.flex-dir-col{
+    flex-direction: column;
+}
+.w-100{
+    width: 100%;
+}
+.w-70{
+    width: 70%;
+}
+.b-grey{
+     border: 1px solid #d6d6d6;
+}
+.b-blue{
+    border: 1px solid #007bff;
+}
+.br-5{
+    border-radius: 5px;
+}
+.outline-none{
+    outline: none;
+}
+.grid-2{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.mt-10{
+    margin-top: 100px;
+}
+.mt-8{
+    margin-top: 80px;
+}
+
+.shipping .contents .infos label{
+    font-weight: 660;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.b-none{
+    border: none;
+}

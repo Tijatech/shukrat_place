@@ -1,0 +1,38 @@
+.blue{
+    color: #007bff;
+}
+.grey{
+    color: rgb(71, 68, 68);
+}
+.font-s{
+    font-size: 12px;
+    margin-top: -5px;
+}
+.w-100{
+    width: 100%;
+}
+.fr{
+    float: right;
+}
+.justify-sb{
+    justify-content: space-between;
+}
+.justify-sa{
+    justify-content: space-around;
+}
+
+.add-btn .btn{
+    margin-top: 150px;
+    padding: 15px 150px;
+}
+main .goback a{
+    background-color: #007bff;
+    color: white;
+    padding: 13px;
+    font-size: 11px;
+    width: 150px;
+    text-decoration: none;
+    box-shadow: 1px 1px 5px rgb(88, 86, 86);
+}
+
+

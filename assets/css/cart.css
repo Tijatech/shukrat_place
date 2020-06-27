@@ -1,0 +1,27 @@
+.flex-on{
+    display: flex;
+}
+.justify-sb{
+    justify-content: space-between;
+}
+.justify-sa{
+    justify-content: space-around;
+}
+.bs{
+    box-shadow: 1px 1px 5px rgb(117, 117, 117);
+}
+.txt-inc{
+    font-size: 15px;
+    font-weight: 800;
+}
+#qty{
+    width: 40px;
+    box-sizing: content-box;
+    padding: 7px 0;
+    border: none;
+    border-right: 1px solid rgb(206, 205, 205);
+    border-left: 1px solid rgb(206, 205, 205);
+    text-align: center;
+    outline: none;
+    color: black;
+}

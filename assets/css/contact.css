@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.app .contact{
+    background-color: rgb(248, 246, 246);
+    box-shadow: 1px 1px 5px rgb(143, 141, 141);
+    padding: 50px 0;
+}
+.contact .heading{
+    text-align:center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.contact .infos{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 20px 0;
+    width: 75%;
+    margin:auto;
+}
+.infos .info{
+    background-color: #007bff;
+    padding:15px 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.infos .info .title{
+    font-weight: 600;
+    font-size: 16px;
+}
+.contact .form{
+    width: 75%;
+    margin: auto;
+    padding:20px 0;
+}
+.contact .form form{
+    display: flex;
+    flex-direction: column;
+}
+.form form .group{
+    display: flex;
+    justify-content: space-between;
+}
+.form form .p-info{
+    background-color: #007bff;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    padding: 6px 10px;
+    align-items: center;
+}
+.form form .group .p-info{
+   width: 49%;
+}
+
+.form form .p-info input{
+    width: 80%;
+    padding: 10px 20px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.form form .mess{
+    background: #007bff;
+    margin-bottom: 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+.form form .mess textarea{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    width: 100%;
+    resize: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.form form .mess label{
+    padding: 10px 30px;
+}
+.form form .btn-holder{
+    width: fit-content;
+    margin:auto;
+}
+.form form .btn-holder button{
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width:1000px){
+    .contact .infos{
+        display: block;
+    }
+    .form form .group{
+        display: block;
+    }
+
+    .form form .group .p-info{
+        width: 100%;
+    }
+}
