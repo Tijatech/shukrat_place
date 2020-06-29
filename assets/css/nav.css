@@ -13,7 +13,7 @@
     display: flex;
 }
 #app .left{
-min-width: 300px;
+min-width: 250px;
 width: 20%;
 background: rgb(246, 246, 246);
 box-shadow: 1px 1px 5px rgb(172, 168, 168);

@@ -1,0 +1,107 @@
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.side-cat{
+    width: 360px;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 5px rgb(155, 152, 152);
+    position: relative;
+    height: 100vh;
+}
+.side-cat h3{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.side-cat .nav-links .nav-link{
+    cursor: pointer;
+    font-size: 18px;
+    padding:30px;
+}
+.side-cat .nav-links .nav-link:hover > .cate{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.side-cat .nav-links .nav-link .cate{
+    position: absolute;
+    display: none;
+    width: 700px;
+    box-shadow: 1px 1px 5px rgb(100, 98, 98);
+    padding: 20px;
+    left: 80%;
+    background: white;
+    cursor: default;
+    z-index: 1;
+}
+.side-cat .nav-links .nav-link .cate ul{
+    font-size: 12px;
+}
+.side-cat .cate h6{
+    font-weight: 600;
+}
+.side-cat .cate ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+.shop-products .sort{
+    background: rgb(237, 240, 239);
+    margin-bottom: 30px;
+    width: max-content;
+    margin-left: 20px;
+}
+.shop-products .sort select{
+    padding:5px;
+    background: rgb(237, 240, 239);
+    border: none;
+    outline: none;
+}
+
+.shop-products .products .product{
+    width: 250px;
+    margin: 5px;
+}
+.shop-products .products .product .relative{
+    position: relative;
+    width:230px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.shop-products .products .product .relative:hover > a img{
+    transform: scale(1.1);
+    transition: transform 200ms 100ms ease-in-out;
+    
+}
+.shop-products .products .product .relative i{
+    position: absolute;
+    right: 20px;
+    font-size: 25px;
+    padding:10px;
+    opacity: 0;
+    transition: opacity 400ms 100ms ease-in-out;
+}
+.shop-products .products .product .relative:hover > a i{
+    opacity: 1;
+}
+
+.shop-products .products .product .relative .fa-heart{
+    top: 30px;
+}
+.shop-products .products .product .relative .fa-shopping-cart{
+    bottom: 30px;
+    color: white;
+    background: #007bff;
+    
+    border-radius: 5px;
+}
+.shop-products .products .product .pro-img{
+    width:230px;
+    height: 250px;
+}
+.shop-products .products .product small{
+    font-size: 10px;
+}
+
+

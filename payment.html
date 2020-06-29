@@ -45,7 +45,7 @@
                    
                 </form>
                 <div class="assess flex">
-                    <a href="signup.html"> <i class="fa fa-login"></i> LOGIN</a>
+                    <a href="signup.html"> <i class="fa fa-sign-in-alt"></i> LOGIN</a>
                     <a href=""> <i class="fa fa-question-circle "></i> HELP</a>
                     <a href="cart.html"> <i class="fa fa-shopping-cart"></i> CART</a>
                 </div>
@@ -81,12 +81,46 @@
                     <div class="pay-method mt-8">
                         <h4>Payment Method</h4>
                         <select name="payment" id="" class="w-100 br-5 b-blue p-3">
-                            <option value="" selected class="b-blue p-3">Pay on Delivery</option>
-                            <option value="">Pay with Card</option>
+                            <option value="pay-later">Pay on Delivery</option>
+                            <option value="pay-now" selected>Pay with Card</option>
                         </select>
+
+                        <div class="pay">
+                            <div class="grid-3 mt-5 mb-5">
+                                <img src="assets/images/g4158@2x.png" alt="VISA">
+                                <img src="assets/images/Mastercard-logo.svg_-990x770@2x.png" alt="MASTERCARD">
+                                <img src="assets/images/paypal(1)@2x.png" alt="PAYPAL">
+                            </div>
+                            <div>
+                                <div class="form-group">
+                                    <label for="name">CARDHOLDER NAME</label>
+                                    <input type="text" name="" id="name" placeholder="Bolaji Amusan" class="w-100 br-5 b-blue p-3">
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">CARD NUMBER</label>
+                                    <input type="text" name="" id="name" placeholder="1234 6565 7867 6786" class="w-100 br-5 b-blue p-3">
+                                </div>
+                                <div class="flex">
+
+                                    <div class="form-group">
+                                        <label for="">EXPIRATION DATE</label>
+                                        <div class="flex mr-3">
+                                            <input type="number" placeholder="07" class="w-100 br-5 b-blue p-3 mr-2">
+                                            <input type="number" placeholder="20" class="w-100 br-5 b-blue p-3">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="">CVV</label>   
+                                        <input type="number" placeholder="689" class="w-100 br-5 b-blue p-3">   
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="pt-5 text-md-right">
-                        <a class="text-white btn btn-primary p-3 pr-5 pl-5">Pay Now</a>
+                    <div class="pt-5 text-md-left">
+                        <a href="index.html" class="text-white btn btn-primary p-3 pr-5 pl-5">Pay Now</a>
                     </div>
                 </div>
                     
@@ -111,64 +145,71 @@
 
     </div>
     
-<!-- The Footer -->
-<footer class="navbar navbar-expand-lg d-xs-none d-sm-none d-lg-block d-md-block">
-    <div class="container-fluid text-center text-md-left">
-<div class="container footer">
-<!-- Easy Navigation Links -->
-<div class="link-list">
-<div class="fh">
- Company
-</div>
-<ul class="m-b">
- <li><a href="">About us</a></li>
- <li><a href="">Contact us</a></li>
- <li><a href="">Blog</a></li>
- <li><a href="">Pricing</a></li>
- <li><a href="">Services</a></li>
-</ul>
-</div>
-<!-- More Info Links -->
-<div class="link-list">
-<div class="fh">
- Info
-</div>
-<ul  class="m-b">
- <li><a href="../../Teacher's page/Teacher's.html">Teachers</a></li>
- <li><a href="">Development</a></li>
- <li><a href="">API</a></li>
- <li><a href="">FAQ</a></li>
-</ul>
-</div>
-<!-- Social Media Links -->
-<div>
-<div class="fh">
- Find us on social media
-</div>
-<div class="flex">
-<div><a href=""><i class="fab fa-facebook"></i></a></div>
- <div><a href=""><i class="fab fa-instagram"></i></a></div>
- <div><a href=""><i class="fab fa-twitter"></i></a></div>
- <div><a href=""><i class="fab fa-youtube"></i></a></div>
-</div>
 
-</div>
-<!-- Newsletter -->
-<div>
-<div class="fh">
- Join our mailing list
-</div>
-<form class="newsletters">
- <input type="email" placeholder="Email"> 
- <a href="#" button type="submit" class="btn"><i class="fas fa-paper-plane"></i></button></a>
-</form>
-<div class="mt-5 pt-5">
- &copy; Copyright 2020 All rights reserved
-</div>
-</div>
-</div>
-</div>
-</footer>
+  
+<!-- The Footer -->
+<footer class="">
+    <div class="footer-top grid-1 container">
+      <div class="sub">
+          <h2>Subscribe for a <span>discount of 25%</span></h2>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Ipsa, voluptate sunt! Molestias pariatur, temporibus porro error iste voluptas, 
+              saepe veniam quotemporibus porro error
+          </p>
+        </div>
+        <form class="sub-input flex-on">
+            <input type="email" name="sub-email" id="sub-email" placeholder="Your mail">
+            <button>Subscribe</button>
+        </form>
+    </div>
+    <div class="footer container">
+        <div>
+          <h5>LET US HELP YOU</h5>
+          <ul>
+              <li><a href="">Help Center</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+              <li><a href="">How to shop on Shukrat ?</a></li>
+              <li><a href="">Delivery options and timelines</a></li>
+              <li><a href="">How to return product on Shukrat ?</a></li>
+              <li><a href="">Corporate and bulk purchases</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>MAKE MONEY WITH SHUKRAT</h5>
+          <ul>
+              <li><a href="">Sell on Shukrat</a></li>
+              <li><a href="">Become an Affiliate Partner</a></li>
+              <li><a href="">Become a Sales Consultant</a></li>
+              <li><a href="">Become a Shukrat Vendor Service Provider</a></li>
+              <li><a href="">Become a Logistics Service Partner</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>DOWNLOAD & CONNECT WITH US</h5>
+          <div class="flex">
+              <div class="flex">
+                  <img src="assets/images/google-play-3@2x.png" alt="">
+                  <h5>
+                      Download on Google Play
+                  </h5>
+              </div>
+              <div class="flex">
+                  <img src="assets/images/google-play-3@2x.png" alt="">
+                  <h5>
+                      Download on App Store
+                  </h5>
+              </div>
+          </div>
+          <div class="social">
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-youtube"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+    </div>
+  </footer>
     
 
 

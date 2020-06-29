@@ -26,8 +26,12 @@
     outline: none;
 }
 .grid-2{
-display: grid;
-grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 .mt-10{
     margin-top: 100px;
@@ -36,7 +40,7 @@ grid-template-columns: 1fr 1fr;
     margin-top: 80px;
 }
 
-.shipping .contents .infos label{
+.shipping .contents .infos label, .pay label{
     font-weight: 660;
     font-size: 20px;
     padding: 0 10px;
