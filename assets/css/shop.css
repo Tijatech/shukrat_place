@@ -38,6 +38,7 @@
     background: white;
     cursor: default;
     z-index: 1;
+    color: black;
 }
 .side-cat .nav-links .nav-link .cate ul{
     font-size: 12px;
