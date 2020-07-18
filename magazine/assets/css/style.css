@@ -216,9 +216,13 @@ footer img{
     main #cto{
         display: flex;
         flex-direction: column;
+        
     }
     main #cto img{
         width: 100%;
+    }
+    main #cto .right h1{
+        font-size: 35px;
     }
     main section .grid{
         grid-template-columns: 1fr;
@@ -229,4 +233,6 @@ footer img{
     main section .grid .single img{
         width: 100%;
     }
+
+   
 }
