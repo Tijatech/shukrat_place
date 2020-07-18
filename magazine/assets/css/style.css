@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+}
+.ls-2{
+    letter-spacing: 2px;
+}
+.pt-5{
+    padding-top:50px;
+}
+.pb-5{
+    padding-bottom:50px;
+}
+p{
+    font-weight: 300;
+}
+h3{
+    font-weight: 500;
+}
+/* Navbar Style */
+nav{
+    width: 100%;
+    padding: 10px 30px;
+}
+nav .navbar{
+    display: flex;
+    align-content: center;
+}
+nav .navbar .logo{
+    width: 100%;
+    text-align: center;
+}
+nav .navbar .hamburger img{
+    width: 35px;
+}
+nav .navbar .logo img{
+    width: 120px;
+}
+
+
+/* Header Style / CTO */
+header{
+    display: flex;
+    width: 100%;
+}
+header .left,header .right{
+    width: 50%;
+}
+header .left img{
+    width: 100%;
+}
+header .right{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+header .right div:nth-child(1){
+    letter-spacing: 2px;
+}
+header .right div:nth-child(1) span{
+    float: right;
+}
+header .right div:nth-child(2){
+    padding: 40px 0 ;
+    line-height: 2;
+}
+header .right div:nth-child(2) h1{
+    text-align: center;
+}
+header .right div:nth-child(2) div:last-child{
+    padding-top: 50px;
+}
+header .right div:nth-child(2) div:last-child a{
+    padding: 20px 100px;
+    color: white;
+    text-decoration: none;
+    border:1px solid white;
+}
+
+
+/* Main Content */
+main{
+    padding: 0 4em;
+}
+main section{
+    padding-bottom: 50px;
+}
+main section .link{
+    padding: 20px;
+    text-align: center;
+}
+main section .link a{
+    color: white;
+    background: #000;
+    text-decoration: none;
+    padding: 10px 50px;
+}
+main section .link a:hover{
+    color: black;
+    background: #fff;
+    border: 1px solid black;
+}
+main #featured .title{
+    padding: 10px 0;
+    font-size: 20px;
+}
+main #featured .flex{
+    display: flex;
+    padding: 20px 0 70px;
+}
+main #featured .flex .left span, main #featured .flex .right span{
+    float: right;
+    padding: 5px 20px;
+}
+main section .ls-2{
+    padding: 5px 10px;
+}
+main section .ls-2 span{
+    float: right;
+}
+main section .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+main #cto{
+    display: flex;
+    color: white;
+    padding: 50px 0;
+}
+main #cto .right{
+    display: flex;
+    background: #000;
+    width: 100%;
+    justify-content: center;
+    padding: 100px 0 0;
+}
+main #cto .right h1{
+    font-size: 40px;
+}
+main #cto .right div div{
+    padding: 50px 0;
+    text-align: center;
+}
+main #cto .right div a{
+    padding: 20px 50px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+/* Footer Style */
+footer{
+    background: #000;
+    padding: 25px 0;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 200;
+}
+footer img{
+    width: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    header{
+        flex-direction: column;
+    }
+    header .left,header .right{
+        width: 100%;
+    }
+
+
+
+    /* Main Style */
+    main{
+        padding: 0 1em;
+        width: 100%;
+        overflow: hidden;
+    }
+    main #featured .flex{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    main #featured .flex .right,main #featured .flex .left{
+        padding: 20px 0;
+    }
+    main #featured .flex img{
+        width: 100%;
+    }
+    main #cto{
+        display: flex;
+        flex-direction: column;
+    }
+    main #cto img{
+        width: 100%;
+    }
+    main section .grid{
+        grid-template-columns: 1fr;
+    }
+    main section .grid .single{
+        padding: 20px 0;
+    }
+    main section .grid .single img{
+        width: 100%;
+    }
+}
