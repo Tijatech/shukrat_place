@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player | Mobile</title>
+    <style>
+        *{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    #app{
+        background: #F51E38;
+        height: 100vh;
+        color: rgb(255, 255, 255);
+        position: relative;
+
+    }
+
+    #app .sliders .slider{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        bottom: 50%;
+        left: 50%;
+        transform: translate(-50%,50%);
+    }
+    #app .sliders .slider .details{padding: 25px;}
+    #app .sliders .slider .details h1{font-weight: bold;font-size: 30px;}
+
+    #app #cto{
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        font-size: 18px;
+    }
+    #app #cto a{
+        background: rgb(250, 250, 250);
+        padding:8px;
+        border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="sliders">
+            <div class="slider">
+                <div>
+                    <img src="./assets/images/515654-PIYV9M-295.png" alt="">  
+                </div>
+                
+                <div class="details">
+                    <h1>Listening And Watching Anytime, Anywhere</h1>
+                    <p>The  artists we represent are one of the most successful in Romania and also
+                        were a hugh breakthrough.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="cto">
+            GET STARTED <a href="/m-home.html"><img src="./assets/images/Right.svg" alt=""></a>
+        </div>
+    </div>
+</body>
+</html>

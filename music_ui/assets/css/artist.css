@@ -1,0 +1,104 @@
+#app #all .banners{
+    display: flex;
+    padding:20px 10px;
+    color: white;
+}
+
+#app #all .banners #banner{
+    background: url(../images/banner.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    border-radius: 6px;
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#app #all .banners #banner .left{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+#app #all .banners #banner .left .img img{
+    border-radius: 50%;
+    width: 100px;
+    padding: 0 10px;
+}
+
+#app #all .banners #banner .left .art .feat div{padding: 0 15px;}
+
+
+#app #all .banners #banner .right{
+    background: rgba(15, 30, 54, 0.9);
+    border-radius: 0px 6px 6px 0px;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 20px 20px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(204, 206, 207);
+}
+#app #all .banners #banner .right table td{padding: 5px 10px;}
+#app #all .banners #banner .right .btns{display: flex; padding: 30px 0;}
+
+#app #all .banners #banner .right .btns button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px; margin-right: 10px; outline: none;
+}
+
+#app #all  .a-banner .banner1{position: relative; }
+#app #all  .a-banner .banner1 .ab{
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    background: rgb(14, 13, 13);
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+#app #all #filter{padding: 50px;}
+#app #all #filter #heading{justify-content: space-between; padding-bottom: 20px;}
+#app #all #filter #heading ul li{list-style: none; padding: 0 15px;}
+#app #all #filter #heading ul .active{color: #F51E38;}
+#app #all #filter #subnav{
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+#app #all #filter #subnav button{
+    text-decoration: none;
+    color: black;
+    padding: 10px 18px;
+    border: 1px solid rgb(88, 88, 88);
+    box-shadow: none;
+    margin: 10px;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
+#app #all #filter #subnav button.active{
+    background: #3E2AD1;
+    color: white;
+    border: none;
+}
+#app #more-artists{
+    justify-content: space-evenly;
+    text-align: center;
+}
+#app #more-artists .artist img{border-radius: 50%;}

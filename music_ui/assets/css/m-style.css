@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+   
+}
+#app{font-family: 'Source Sans Pro', sans-serif; height: 100vh;}
+
+.flex{
+    display: flex;
+}
+.flex-dc{
+    flex-direction: column;
+}
+.jc-se{
+    justify-content: space-evenly;
+    width: 100%;
+}
+.jc-sb{
+    justify-content: space-between;
+    width: 100%;
+}
+.p-1{
+    padding: 10px;
+}
+
+.jc-center{
+    justify-content: center;
+}
+#app #main{
+    padding-bottom:30px;
+}
+#app nav {
+    position: fixed;
+    top: 20px;
+    left: 50px;
+    z-index: 1;
+}
+
+#app #sliders .slider{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/Rectangle.png);
+    background-position: center;
+    background-size: cover;
+}
+#app #sliders .slider .details{
+    color: white;
+    position: absolute;
+    top: 30%;
+    padding: 10px 50px;
+}
+
+#app #sliders .slider .details #opt{
+    padding: 20px 0;
+    display: flex;
+}
+#app #sliders .slider .details #opt button{
+    padding: 8px 20px;
+    background: #fff;
+    border: none;
+    box-shadow: 1px 1px 5px rgb(190, 190, 190);
+    border-radius: 5px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+    font-size: 10x;
+}
+#app #sliders .slider .details #opt button:hover{padding: 9px 20px;}
+#app #sliders .slider .details #opt button img{
+    padding: 0 5px;
+}
+
+ /* Featured Track and Top Tracks Styling */
+ #app #featured {
+    padding: 30px 2em;
+}
+#app #featured h2:first-child{
+    padding: 10px 0;
+    font-size: 17px;
+}
+#app #featured .track small{
+    font-size: 10px;
+}
+#app #top-tracks{padding: 20px 0;}
+#app #top-tracks .track{display: flex; height: 80px; padding: 20px 0;}
+#app #top-tracks .track img{width: 70px; padding-right:20px;}
+
+#app #top-tracks .info{justify-content: space-between; width: 100%;}
+
+#app #bottom-nav{
+    position: fixed;
+    bottom: 0;
+    padding: 10px 20px;
+    width: 100%;
+    background:rgb(255, 255, 255);
+}
+#app #bottom-nav .nav{
+    display: flex;
+    justify-content: space-between;
+}
+#app #bottom-nav .nav #left, #app #bottom-nav .nav #right{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#app #bottom-nav .nav #middle{
+    position: relative;
+    width: 100%;
+    
+}
+#app #bottom-nav .nav #middle .ab{
+    position: absolute;
+    background: #3E2AD1;
+    padding: 20px;
+    top: -50px;
+    border-radius: 50%;
+    right: 25%;
+}
+#app #before{
+    background: url(../images/elizeu-dias-602253-unsplash-700x393.png);
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#app{
+    position: relative;
+}
+#app #before .nav{
+    padding: 20px;
+}
+#app #after{
+    width: 100%;
+    background: #fff;
+    border-radius: 50px 50px 0  0;
+    position: absolute;
+    top: 40vh;
+}
+#app #after #content{
+    padding-top: 80px;
+   text-align: center;
+}
+#app #after #content #music,#app #after #content #prog{
+    padding:30px 0 ;
+}
+#app #after #content #music img{
+    border-radius: 50%;
+}
+#app #after #player{
+    padding: 30px 0;
+}
+#app #after #player .song-props .pause{
+    background: rgb(110, 2, 2);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 5px rgba(236, 18, 18, 0.904);
+}
+#app #after #player .song-props .pause img{width: 15px;}
+
+#app #after #player  .progress{
+    background: #fff;
+    width: 80%;
+    height: 5px;
+    align-self: center;
+    border-radius: 50px;
+}
+#app #after #player  .progress div{
+    background: #F51E38;
+    width: 50%;
+    height: inherit;
+    border-radius: 50px;
+}

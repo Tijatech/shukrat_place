@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Player UI</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
 </head>
 <body>
     <div id="app">
@@ -13,30 +14,30 @@
                 <!-- Side Bar -->
                 <div id="sidebar">
                     
-                        <img src="./assets/images/Mask Group.svg" alt="Music Club">
-                    
-                    <ul>
-                        <li class="active"><img src="./assets/images/Discover.svg" alt="" > Discover</li>
-                        <li><img src="./assets/images/Songs.svg" alt=""> Songs</li>
-                        <li><img src="./assets/images/Albums.svg" alt=""> Albums</li>
-                        <li><img src="./assets/images/Artists.svg" alt=""> Artists</li>
-                        <li><img src="./assets/images/YouTube.svg" alt=""> YouTube</li>
-                    </ul>
-                    <h4>My Tracks</h4>
-                    <ul>
-                        <li><img src="./assets/images/Favourite.svg" alt=""> Favourite</li>
-                        <li><img src="./assets/images/Recent History.svg" alt=""> Recent History</li>
-                        <li><img src="./assets/images/Download Items.svg" alt=""> Download Items</li>
-                        <li><img src="./assets/images/Local Files.svg" alt=""> Local Files</li>
-                    </ul>
-                    <h4>Playlist <span><img src="./assets/images/Plus.svg" alt=""></span></h4>
-                    <ul>
-                        <li><img src="./assets/images/Add.svg" alt=""> Bangla</li>
-                        <li><img src="./assets/images/Add.svg" alt=""> English</li>
-                        <li><img src="./assets/images/Add.svg" alt=""> My Style</li>
-                        <li><img src="./assets/images/Add.svg" alt=""> Hindi</li>
-                    </ul>
-                </div>
+                    <img src="./assets/images/Mask Group.svg" alt="Music Club">
+                
+                <ul>
+                    <li ><a href="/" ><img src="./assets/images/Discover.svg" alt="" > Discover</a> </li>
+                    <li><a href="#"><img src="./assets/images/Songs.svg" alt=""> Songs</a></li>
+                    <li><a href="album.html"class="active"><img src="./assets/images/Albums_colored.svg" alt=""> Albums</a></li>
+                    <li><a href="artist.html"><img src="./assets/images/Artists.svg" alt=""> Artists</a></li>
+                    <li><a href="#"><img src="./assets/images/YouTube.svg" alt=""> YouTube</a></li>
+                </ul>
+                <h4>My Tracks</h4>
+                <ul>
+                    <li><a href="#"><img src="./assets/images/Favourite.svg" alt=""> Favourite</a></li>
+                    <li><a href="#"><img src="./assets/images/Recent History.svg" alt=""> Recent History</a></li>
+                    <li><a href="#"><img src="./assets/images/Download Items.svg" alt=""> Download Items</a></li>
+                    <li><a href="#"><img src="./assets/images/Local Files.svg" alt=""> Local Files</a></li>
+                </ul>
+                <h4>Playlist <span><img src="./assets/images/Plus.svg" alt=""></span></h4>
+                <ul>
+                    <li><a href="#"><img src="./assets/images/Add.svg" alt=""> Bangla</a></li>
+                    <li><a href="#"><img src="./assets/images/Add.svg" alt=""> English</a></li>
+                    <li><a href="#"><img src="./assets/images/Add.svg" alt=""> My Style</a></li>
+                    <li><a href="#"><img src="./assets/images/Add.svg" alt=""> Hindi</a></li>
+                </ul>
+            </div>
                 <!-- Main App -->
                 <div id="main-app">
                     <div id="topbar">
@@ -59,8 +60,166 @@
                             </div>
                         </div>
                     </div>
+                    <!-- This contains the main contents -->
                     <div id="all">
-                        <h1>In Progress</h1>
+                        <!-- Featured Tracks -->
+                        <div id="featured">
+                            <h2>Featured Tracks</h2>
+                            <div class="tracks flex jc-sb">
+                                <div class="track">
+                                    <img src="./assets/images/Rectangle (1).png" alt="" >
+                                    <div>
+                                        <h4>Sucker</h4>
+                                        <small>Jonas Brothers</small>
+                                    </div>
+                                </div>
+                                <div class="track">
+                                    <img src="./assets/images/Rectangle (1).png" alt="">
+                                    <div>
+                                        <h4>I Dont't Care</h4>
+                                        <small>Ed Sheeran and Brothers</small>
+                                    </div>
+                                </div>
+                                <div class="track">
+                                    <img src="./assets/images/Rectangle Copy 12.png" alt="">
+                                    <div>
+                                        <h4>Old Town Road</h4>
+                                        <small>Lil Nass</small>
+                                    </div>
+                                </div>
+                                <div class="track">
+                                    <img src="./assets/images/Rectangle Copy 13.png" alt="">
+                                    <div>
+                                        <h4>Can't Let Go</h4>
+                                        <small>Feydee</small>
+                                    </div>
+                                </div>
+                                <div class="track">
+                                    <img src="./assets/images/Mask.png" alt="">
+                                    <div>
+                                        <h4>I need Your Love</h4>
+                                        <small>Feydee</small>
+                                    </div>
+                                </div>
+                                <div class="track">
+                                    <img src="./assets/images/Rectangle Copy 15.png" alt="">
+                                    <div>
+                                        <h4>Otilia</h4>
+                                        <small>Billionairas</small>
+                                    </div>
+                                </div>
+                                <div class="track">
+                                    <img src="./assets/images/Rectangle Copy 16.png" alt="">
+                                    <div>
+                                        <h4>Kamelia</h4>
+                                        <small>DDY Nunes</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="album">
+                            <div class="flex">
+                                <div class="left">
+                                    <img src="./assets/images/Rectangle 2.1.png" alt="">
+                                    <div class="name"><img src="./assets/images/Kamelia.svg" alt=""></div>
+                                </div>
+                                <div class="right">
+                                   
+                                    <div> 
+                                        <small>// Album</small>
+                                        <h1>Around The World</h1>
+                                        <h3>Akcent Feat. Lidia Buble & DDY Nunes</h3>
+                                        <p>The artists we represent are one of the most successful in Romania and also 
+                                            were a huge breakthrough in the international market, topping radio and sales around the world.</p>
+                                    </div>
+                                    <div class="tracks">
+                                        <table>
+                                            <thead>
+                                                <th></th>  <th></th >  <th></th>  <th></th>  <th></th>  <th></th>  <th></th>  <th></th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td><img src="./assets/images/Favourite.svg"></td>
+                                                    <td>Dame Dame</td>
+                                                    <td>Claydee feat</td>
+                                                    <td>39,566</td>
+                                                    <td>4:21</td>
+                                                    <td>
+                                                        <img src="./assets/images/Download Items.svg" alt="">
+                                                        <img src="./assets/images/Share.svg" alt="">
+                                                    </td>
+                                                    <td>
+                                                        <img src="./assets/images/Group.svg" alt="">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><img src="./assets/images/Voice_recorder.svg" alt=""></td>
+                                                    <td><img src="./assets/images/Favourite.svg"></td>
+                                                    <td>Kamelia</td>
+                                                    <td>DDY Nunes</td>
+                                                    <td>32,420</td>
+                                                    <td>3:30</td>
+                                                    <td>
+                                                        <img src="./assets/images/Download Items.svg" alt="">
+                                                        <img src="./assets/images/Share.svg" alt="">
+                                                    </td>
+                                                    <td>
+                                                        <img src="./assets/images/Group.svg" alt="">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td><img src="./assets/images/Favourite.svg"></td>
+                                                    <td>Laugh Till You Cry</td>
+                                                    <td>Feydee</td>
+                                                    <td>28,221</td>
+                                                    <td>3:56</td>
+                                                    <td>
+                                                        <img src="./assets/images/Download Items.svg" alt="">
+                                                        <img src="./assets/images/Share.svg" alt="">
+                                                    </td>
+                                                    <td>
+                                                        <img src="./assets/images/Group.svg" alt="">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td><img src="./assets/images/Favourite.svg"></td>
+                                                    <td>I don't know</td>
+                                                    <td>Deejay fly</td>
+                                                    <td>21,528</td>
+                                                    <td>2:26</td>
+                                                    <td>
+                                                        <img src="./assets/images/Download Items.svg" alt="">
+                                                        <img src="./assets/images/Share.svg" alt="">
+                                                    </td>
+                                                    <td>
+                                                        <img src="./assets/images/Group.svg" alt="">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td><img src="./assets/images/Favourite.svg"></td>
+                                                    <td>Dame Dame</td>
+                                                    <td>Claydee feat</td>
+                                                    <td>39,566</td>
+                                                    <td>4:21</td>
+                                                    <td>
+                                                        <img src="./assets/images/Download Items.svg" alt="">
+                                                        <img src="./assets/images/Share.svg" alt="">
+                                                    </td>
+                                                    <td>
+                                                        <img src="./assets/images/Group.svg" alt="">
+                                                    </td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
